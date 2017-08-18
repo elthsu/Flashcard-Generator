@@ -40,7 +40,7 @@ var question = function() {
       BasicPlay(basicArr);
       }
       else {
-      console.log("Please make some questions first!")
+      console.log("Please make some Basic Cards first!")
       question();
 
       }
@@ -51,7 +51,7 @@ var question = function() {
       ClozePlay(clozeArr);
       }
       else {
-      console.log("Please make some questions first!")
+      console.log("Please make some Cloze Cards first!")
       question();
 
       };

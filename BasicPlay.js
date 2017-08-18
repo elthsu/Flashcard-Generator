@@ -21,11 +21,11 @@ if ((i+1) <= basicArr.length) {
 
       ]).then(function(ans) {
 
-        console.log(ans.question);
-        console.log(a);
+        console.log("You answered: " + ans.question);
+        console.log("The correct answer is: " + a);
         if (ans.question === a) {
 
-          console.log("Correct!");
+          console.log("You are correct!");
           score++;
           console.log("Score is " + score);
 

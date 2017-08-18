@@ -21,6 +21,9 @@ if ((i+1) <= clozeArr.length) {
 
       ]).then(function(ans) {
 
+        console.log("You answered: " + ans.answer);
+        console.log("The correct answer is: " + a);
+
         if (ans.answer == a) {
 
           console.log("Correct!");
